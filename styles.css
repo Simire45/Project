@@ -1,0 +1,148 @@
+/*Buttons*/
+.btn{
+	display: inline-block;
+	background-color: royalblue;
+	color: whitesmoke;
+	text-decoration: none;
+	border-radius: 10px;
+	padding: 10px 10px;
+	margin-top: 10px;
+}
+.btn:hover{
+	background-color: darkblue;
+}
+/*Notice Styling*/
+.notice{
+	background: whitesmoke;
+	text-align: left;
+	padding: 20px;
+	margin-bottom: 20px;
+	border-left: 20px solid royalblue;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px rgba(7, 52, 117, 0.5);
+}
+.notice h3{
+	color: royalblue;
+}
+.read-more{
+	display: inline-block;
+	margin-top: 20px;
+	padding: 10px 15px;
+	background-color: royalblue;
+	color: white;
+	text-decoration: none;
+	border-radius: 10px;
+	font-size: 14px;
+}
+.read-more:hover{
+	background-color: darkblue;
+}
+/*Contact Form*/
+form{
+	background: whitesmoke;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px rgba(7, 52, 117, 0.5);
+	max-width: 550px;
+	margin: auto;
+}
+label{
+	display: block;
+	margin: 10px 0 5px 5px;
+	font-weight: bold;
+}
+input, textarea{
+	width: 95%;
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+button{
+	background-color: royalblue;
+	color: white;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 16px;
+}
+button:hover{
+	background-color: darkblue;
+}
+/*General Styles*/
+body{
+	font-family: 'arial', sans-serif;
+	background-color: lightyellow;
+	text-align: center;
+}
+h2{
+	color: royalblue;
+}
+.body{
+	background-image: url(images.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #b2beb5;
+}
+.p{
+	font-size: 50px;
+	color: black;
+}
+.a{
+	font-size: 50px;
+	background-color: royalblue;
+	color: white;
+	text-decoration: none;
+	border-radius: 10px;
+	padding: 10px 10px;
+}
+/*Navigation Bar*/
+nav{
+	background-color: royalblue;
+	padding: 10px 0;
+}
+nav ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+nav ul li{
+	display: inline-block;
+	margin: 0 20px;
+	background-color: lightyellow;
+	padding: 5px 10px;
+}
+nav ul li a{
+	color: royalblue;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+}
+nav ul li a:hover{
+	text-decoration: underline;
+}
+/*Header*/
+header{
+	background-color: royalblue;
+	color: white;
+	padding: 20px;
+	margin: 20px;
+	font-size: 20px;
+	font-weight: bold;
+}
+/*Container*/
+.container{
+	max-width: 700px;
+	margin: 30px auto;
+	padding: 20px;
+}
+/*Footer*/
+footer{
+	background-color: royalblue;
+	color: white;
+	bottom: 0;
+	padding: 10px;
+	position: fixed;
+	width: 100%;
+}
